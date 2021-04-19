@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flawda Jit #1</title>
+<title>~~Flawda Jit~~</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="css/normalize.css" media="screen">
@@ -36,30 +36,30 @@ background-size: cover;
 }
 
 .text:nth-child(5n + 1) {
-    stroke:  #C313EE;
+    stroke:  #47456C;
     -webkit-animation-delay: -1.2s;
     animation-delay: -1.2s;
 }
 .text:nth-child(5n + 2) {
-    stroke:  #000000;
+    stroke:  #3d82a9;
     -webkit-animation-delay: -2.4s;
     animation-delay: -2.4s;
 }
 
 .text:nth-child(5n + 3) {
-    stroke:  #00FFF3;
+    stroke:  #44cbce;
     -webkit-animation-delay: -3.6s;
     animation-delay: -3.6s;
 }
 
 .text:nth-child(5n + 4) {
-    stroke: #FFFFFF;
+    stroke: #44cbce;
     -webkit-animation-delay: -4.8s;
     animation-delay: -4.8s;
 }
 
 .text:nth-child(5n + 5) {
-    stroke:  #00FFF3;
+    stroke:  #416f94;
     -webkit-animation-delay: -6s;
     animation-delay: -6s;
 }
@@ -99,6 +99,10 @@ svg {
 </head>
 
 <body>
+
+<video playsinline autoplay muted loop id="bg">
+    <source src="media/background.mp4" type="video/mp4">
+</video>
 
 </center></body>
 
@@ -158,6 +162,7 @@ audio.play();
 </script>
 </head>
 <body oncontextmenu="return false;" onclick="hitmarker();" unselectable="on" onselectstart="return false;">
+    <source id="played" src="media/background.mp4"></source>
 <div class="container" style="height: 100%; display: flex; align-items: center; justify-content: center; margin: 0 auto">
         <main>
 
